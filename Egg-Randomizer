@@ -8,8 +8,6 @@ local player = Players.LocalPlayer
 local mouse = player:GetMouse()
 
 -- ✅ Loading Screen (External)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KuniDevLua/GrowAGarden/refs/heads/main/loadingscreen1"))()
-task.wait(5)
 
 -- 🌟 Setup
 local espEnabled = true
