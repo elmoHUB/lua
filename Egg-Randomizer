@@ -31,21 +31,7 @@ local eggChances = {
     ["Rare Summer Egg"] = { Flamingo=30, Toucan=25, ["Sea Turtle"]=20, Orangutan=15, Seal=10 },
     ["Paradise Egg"] = { Ostrich=43, Peacock=33, Capybara=24, ["Scarlet Macaw"]=3, ["Mimic Octopus"]=1 },
     ["Premium Night Egg"] = { Hedgehog=50, Mole=26, Frog=14, ["Echo Frog"]=10 },
-    ["Primal Egg"] = {
-        Parasaurolophus=35,
-        Iguanodon=32.5,
-        Pachycephalosaurus=28,
-        Dilophosaurus=3,
-        Ankylosaurus=1,
-        Spinosaurus=0.5
-    },
-    ["Dinosaur Egg"] = {
-        ["T-Rex"]=50,
-        Brontosaurus=30,
-        Triceratops=10,
-        Velociraptor=10
-    },
-}
+    ["Primal Egg"] = { Hedgehog=50, Mole=26, Frog=14, ["Echo Frog"]=10 },
 
 local realESP = {
     ["Common Egg"]=true, ["Uncommon Egg"]=true, ["Rare Egg"]=true,
