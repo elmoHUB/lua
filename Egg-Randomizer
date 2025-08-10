@@ -147,7 +147,7 @@ stroke.Thickness = 1.4
 -- Title
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, 0, 0, 30)
-title.Text = "🥚 Egg Detector"
+title.Text = "🥚 Egg Randomizer"
 title.Font = Enum.Font.FredokaOne
 title.TextSize = 18
 title.TextColor3 = Color3.fromRGB(255, 220, 120)
