@@ -16,7 +16,6 @@ local autoRunning = false
 
 -- 🐾 Pet Table
 local petTable = {
-    ["Common Egg"] = { "Dog", "Bunny", "Golden Lab" },
     ["Enchanted Egg"] = { "Ladybug", "Pixie", "Imp", "Glimmering Sprite" },
     ["Rare Egg"] = { "Pig", "Monkey", "Rooster", "Orange Tabby", "Spotted Deer" },
     ["Sprout Egg"] = { "Dairy Cow", "Jackalope", "Seedling", "Golem" },
