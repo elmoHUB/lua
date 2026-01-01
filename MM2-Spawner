@@ -89,7 +89,7 @@ Instance.new("UICorner", LoadingBar).CornerRadius = UDim.new(1, 0)
 
 -- Subscribe text (no space under it)
 local SubscribeText = Instance.new("TextLabel")
-SubscribeText.Text = "Subscribe To Shino Scripts"
+SubscribeText.Text = "MM2 SPAWNER"
 SubscribeText.Font = Enum.Font.SourceSans
 SubscribeText.TextSize = 18
 SubscribeText.TextColor3 = Color3.fromRGB(255, 255, 255)
