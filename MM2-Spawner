@@ -37,7 +37,7 @@ Instance.new("UICorner", Logo).CornerRadius = UDim.new(1, 0)
 
 -- Channel name (next to logo)
 local NameLabel = Instance.new("TextLabel")
-NameLabel.Text = "Youtube: Shino Scripts"
+NameLabel.Text = "MM2 SPAWNER"
 NameLabel.Font = Enum.Font.SourceSansBold
 NameLabel.TextSize = 20
 NameLabel.TextColor3 = Color3.new(1, 1, 1)
@@ -113,7 +113,7 @@ Instance.new("UICorner", CopyButton).CornerRadius = UDim.new(0, 8)
 
 CopyButton.MouseButton1Click:Connect(function()
 	if setclipboard then
-		setclipboard("https://www.youtube.com/@ShinoScriptsz")
+		setclipboard("MM2 SPAWNER")
 		CopyButton.Text = "Copied!"
 		task.wait(1)
 		CopyButton.Text = "Copy Channel Link"
