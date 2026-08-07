@@ -173,7 +173,7 @@ local function createButton(text, color)
 end
 
 local FreezeButton = createButton("FREEZE TRADE", Color3.fromRGB(240, 180, 60))
-local ForceButton = createButton("FORCE TRADE PETS", Color3.fromRGB(160, 120, 255))
+local ForceButton = createButton("FREEZE MY ITEMS", Color3.fromRGB(160, 120, 255))
 local AcceptButton = createButton("AUTO ACCEPT", Color3.fromRGB(70, 200, 120))
 
 -- Notification Logic
@@ -191,7 +191,7 @@ AcceptButton.MouseButton1Click:Connect(function() notify("Auto accept triggered!
 
 --// Credit
 local CreditLabel = Instance.new("TextLabel")
-CreditLabel.Text = "Made By: elmoHUB"
+CreditLabel.Text = "Made By: GalaxySanyobox"
 CreditLabel.Font = Enum.Font.GothamBold
 CreditLabel.TextSize = 13
 CreditLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
