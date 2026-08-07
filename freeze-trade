@@ -185,9 +185,9 @@ local function notify(txt)
 	})
 end
 
-FreezeButton.MouseButton1Click:Connect(function() notify("Trade frozen!") end)
-ForceButton.MouseButton1Click:Connect(function() notify("Force trade triggered!") end)
-AcceptButton.MouseButton1Click:Connect(function() notify("Auto accept triggered!") end)
+FreezeButton.MouseButton1Click:Connect(function() notify("Freeze Trade: ON") end)
+ForceButton.MouseButton1Click:Connect(function() notify("Freeze My Items: ON") end)
+AcceptButton.MouseButton1Click:Connect(function() notify("Auto Accept: ON") end)
 
 --// Credit
 local CreditLabel = Instance.new("TextLabel")
